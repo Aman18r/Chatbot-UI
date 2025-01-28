@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+html, body{
+  margin: 0;
+  padding: 0;
+  background: #05101c;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+}
+.image-inverted {
+  filter: invert(100%) brightness(110%) grayscale(50%);
+}
+
+
+.nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 15px; 
+  padding: 10px 25px; 
+  border-radius: 12px; 
+  text-decoration: none;
+  letter-spacing: 1.2px; 
+  color: #ffffff; 
+  background-color: #007bff; 
+  transition: all 0.3s ease; 
+}
+
+.nav-link:hover {
+  background-color: #0056b3; 
+  color: #f1f1f1; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
